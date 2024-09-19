@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Tarjeta</title>
+</head>
+
+<body>
+   
+    <section id="florecita">
+        <figure id="din"></figure>
+        <img id="foto" src="img/1705879328121.jpg" alt="">
+        </figure>
+
+        <button onclick="mostrarFormulario()">Enviar</button>
+    </section>
+   
+    <section>
+
+    </section>
+   
+    <section id="formulario" style="display: none;">
+        <h2 class="datos">Datos Personales</h2>
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="text" id="puesto" placeholder="Puesto">
+        <button onclick="mostrarTarjetaConDatos()">Mostrar Datos</button>
+        <div class="datos" id="datosPersonales"></div>
+    </section>
+    <script src="funcion.js"></script>
+
+    <section id="tarjetaFinal" style="display: none;">
+        <figure>
+            <img id="fotoFinal" src="img/1705879328121.jpg" alt="">
+            <div id="datosA"></div>
+        </figure>
+    </section>
+
+</body>
+
+</html>

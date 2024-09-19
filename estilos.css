@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6e0543;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+button:hover {
+    background-color: #6d0c75;
+}
+
+#florecita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+figure {
+    position: absolute;
+    width: 30%;
+    margin: 0 auto;
+}
+
+img {
+    width: 35%;
+    height: auto;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.datos {
+    color: white;
+}
+#tarjetaFinal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+    position: relative;
+}
+
+#tarjetaFinal figure {
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#tarjetaFinal img {
+    width: 100%;
+    height: auto;
+}
+
+#datosA {
+    background-color: rgba(0, 0, 0, 0.288);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#tarjetaFinal h2, #tarjetaFinal p {
+    font-family:'Times New Roman', Times, serif;
+}
